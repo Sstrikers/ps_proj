@@ -1,5 +1,9 @@
 EMAIL='sergey_tsurankov@epam.com'
+<<<<<<< HEAD
 BRANCH='*/ps_pipeline'
+=======
+BRANCH='*/dev_pipeline'
+>>>>>>> 467338685dcfaeed258f34873915a795dee1380e
 GIT_URL='https://github.com/Sstrikers/ps_proj'
 GIT_CREDENTIALS='c39d22e1-bb70-4f2b-980d-03abdc91361b'
 pipeline {
