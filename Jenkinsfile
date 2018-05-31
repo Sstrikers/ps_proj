@@ -14,6 +14,8 @@ pipeline {
             steps{
                 ping localhost
                 //checkout([$class: 'GitSCM', branches: [[name: BRANCH]], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: GIT_CREDENTIALS, url: GIT_URL]]])    
+                bat "ping localhost"
+                
             }
             
         }
